@@ -1,0 +1,17 @@
+-- CREATE DATABASE
+
+use master;
+
+CREATE DATABASE DataWarehouse;
+
+USE DataWarehouse;
+
+-- CREATE SCHEMA
+
+CREATE SCHEMA bronze;
+GO
+CREATE SCHEMA silver;
+GO
+CREATE SCHEMA gold;
+GO
+
